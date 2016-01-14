@@ -1,0 +1,65 @@
+
+This document defines homework assignments from the “C# Basics“ Course @ Software University. Please submit as homework a single txt/doc/docx file holding the answers of all below described problems. 
+Problem 1.	Some Primes
+Find the 24th, 101st and 251st prime number.
+
+24 th->89
+101 th->547
+251 th->1597
+https://bg.wikipedia.org/wiki/Списък_на_първите_1000_прости_числа
+
+
+Problem 2.	Some Fibonacci Primes
+Check if the 24th, 101st and 251st prime numbers are part of the base Fibonacci number set. What is their position?
+
+Просто 89 -> 11-th fibonacci number
+Просто 547->not there
+Просто 1597->17-th
+https://bg.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%BD%D0%B0_%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D0%B8
+
+
+Problem 3.	Some Factorials
+Find 100!, 171! and 250! Give all digits.
+
+100 -> 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+171 -> 1241018070217667823424840524103103992616605577501693185388951803611996075221691752992751978120487585576464959501670387052809889858690710767331242032218484364310473577889968548278290754541561964852153468318044293239598173696899657235903947616152278558180061176365108428800000000000000000000000000000000000000000
+250 -> 3232856260909107732320814552024368470994843717673780666747942427112823747555111209488817915371028199450928507353189432926730931712808990822791030279071281921676527240189264733218041186261006832925365133678939089569935713530175040513178760077247933065402339006164825552248819436572586057399222641254832982204849137721776650641276858807153128978777672951913990844377478702589172973255150283241787320658188482062478582659808848825548800000000000000000000000000000000000000000000000000000000000000
+
+
+
+Problem 4.	Calculate Hypotenuse
+You are given three right angled triangles. Find the length of their hypotenuses.
+1.	Catheti: 3 and 4
+2.	Catheti:  10 and 12
+3.	Catheti 100 and 250
+
+катети- 3 и 4 -> хипотенуза 5;
+катети- 10 и 12 -> хипотенуза 15,6204993518133;
+катети- 100 и 250 -> хипотенуза 269,258240356725;
+
+
+
+Problem 5.	Numeral System Conversions
+Convert 1234d to binary and hexadecimal numeral systems.
+Convert 1100101b to decimal and hexadecimal numeral systems.
+Convert ABChex to decimal and binary numeral systems.
+
+	   1024  512 256 128 64 32 16 8 4 2 1 				1
+D[1234] =B[   1	   0   0   1  1  0  1 0 0 1 0]
+	     	 											
+D[1234] =H[4x256+Dx16+2x1] 
+
+
+B[1100101] = 1 + 4 +32+64=[D]101
+B[1100101] = 6x16 + 5x1=[H]101
+
+
+H[ABC] = 10x256+11x16+12x1 = 2560+176+12=2748
+H[ABC] = 101010111100
+http://www.binaryhexconverter.com/hex-to-decimal-converter
+http://www.binaryhexconverter.com/decimal-to-hex-converter
+
+Problem 6.	Least Common Multiple
+Find LCM(1234, 3456).
+LCM(1234,3456)=2132352
+https://www.mathsisfun.com/least-common-multiple-tool.html
